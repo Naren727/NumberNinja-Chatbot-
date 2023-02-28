@@ -13,13 +13,18 @@ User Greetings :
 ![image](https://user-images.githubusercontent.com/81982063/221860070-e5c062b2-48f0-4780-8604-3173fa814667.png)
 
 User Menu Request :
+
 ![image](https://user-images.githubusercontent.com/81982063/221861395-f3384e9b-d6a1-4d22-bd9e-8eeeb87394bf.png)
 
 
 User Bot challenge :
-![image](https://user-images.githubusercontent.com/81982063/221860323-5076ccb2-93a0-4a82-be40-769214821451.png)
+
+![image](https://user-images.githubusercontent.com/81982063/221861744-b430c530-5955-4b76-9f2a-64199bcc8552.png)
+
 
 # Basic Mathematical Computations :
 Addition :
-![image](https://user-images.githubusercontent.com/81982063/221860991-3bc0cacd-22a1-47de-8539-756f15c01634.png)
+
+![image](https://user-images.githubusercontent.com/81982063/221861982-be5985f0-3565-4310-ade9-f69420e1c824.png)
+
 
