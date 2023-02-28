@@ -1,0 +1,7 @@
+'''
+- rule : Add when there is intent to add 
+  steps:
+  - intent: add
+  - action: action_add
+
+'''

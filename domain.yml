@@ -1,0 +1,63 @@
+version: '3.1'
+intents:
+- add
+- affirm
+- bot_challenge
+- deny
+- divide
+- goodbye
+- greet
+- inform
+- multiply
+- see_menu
+- subtract
+actions:
+- action_set_number2
+- action_subtract
+- action_add
+- action_set_number1
+- action_greet
+- action_goodbye
+- action_default_fallback
+- action_divide
+- action_multiply
+- action_menu
+entities:
+- number2
+- number1
+- number
+slots:
+  number1:
+    type: float
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: number1
+  number2:
+    type: float
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: number2
+responses:
+  utter_greet:
+  - text: Hey! What can I do for you?
+  - text: How is it going?
+  - text: Hola! Qué puedo hacer por ti?
+  - text: What would you like me to do today?
+  - text: Bonjour! que puis-je faire pour vous?
+  utter_get_num1:
+  - text: 'Enter a value for the first Number :'
+  utter_get_num2:
+  - text: 'Enter a value for the second Number :'
+  utter_goodbye:
+  - text: Bye Bye
+  - text: Pleasure to help you
+  - text: Be Seeing you
+  utter_iamabot:
+  - text: I am NumberNinja, a calculator bot powered by Rasa.
+  - text: I am NumberNinja, your friendy neighbourhood calculator bot
+  - text : I am NumberNinja, I solve problems stealthily 
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
