@@ -10,7 +10,8 @@ Note : Rasa version 3.4 supports Python versions : 3.7,3.8, 3.9 and 3.10 only
 # Basic Greeting & User Interactions:
 User Greetings :
 
-![image](https://user-images.githubusercontent.com/81982063/221860070-e5c062b2-48f0-4780-8604-3173fa814667.png)
+![image](https://user-images.githubusercontent.com/81982063/221862367-c137ddd2-c931-46a4-bb84-7ebec2800ea3.png)
+
 
 User Menu Request :
 
@@ -26,5 +27,12 @@ User Bot challenge :
 Addition :
 
 ![image](https://user-images.githubusercontent.com/81982063/221861982-be5985f0-3565-4310-ade9-f69420e1c824.png)
+
+Subtraction : 
+
+
+Multiplication :
+
+Division :
 
 
