@@ -30,9 +30,14 @@ Addition :
 
 Subtraction : 
 
+![image](https://user-images.githubusercontent.com/81982063/221875590-5a1877f7-0ed4-47f7-a7cd-2f4e3fab286d.png)
+
 
 Multiplication :
 
+![image](https://user-images.githubusercontent.com/81982063/221876117-92549250-b387-46b2-a21c-064417abbe46.png)
+
+
 Division :
 
-
+![image](https://user-images.githubusercontent.com/81982063/221876578-9e13412f-b5b5-413d-9e8b-fcf30ede91bf.png)
