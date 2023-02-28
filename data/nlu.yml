@@ -1,0 +1,97 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - mornin baby
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - thanks
+    - thank you so much
+    - thank you
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nah
+    - nope
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?'
+    - Who are you?
+- intent: subtract
+  examples: |
+    - what is [10](number2) minus [5](number1)?
+    - [8](number2) take away [3](number1)
+    - subtract [7](number1) from [9](number2)
+    - [20](number2) minus [6](number1)
+    - [35](number2) - [23](number1)
+    - [23](number2) - [17](number1)
+- intent: add
+  examples: |
+    - add [35](number1) and [23](number2)
+    - calculate [5](number1) plus [3](number2)
+    - what is [25](number1) + [7](number2)
+    - [12](number2) plus [13](number1)
+    - If you have [4](number1) apples and you get [3](number2) more, how many do you have in total?
+    - How much is [6](number1) cups of water plus [4](number2) cups of water?
+    - Add [16](number1) to [15](number2)
+- intent: multiply
+  examples: |
+    - multiply [35](number1) and [23](number2)
+    - calculate [5](number1) x [3](number2)
+    - what is [25](number1) x [7](number2)
+    - product of [12](number1) and [13](number2)
+    - What is [9](number1) times [6](number2)?
+    - How much is [4](number1) cups of water times [2](number2) cups of water?
+    -Calculate [5](number1) times [8](number2).
+- intent: divide
+  examples: |
+    - what is [10](number1) divided by [2](number2)
+    - divide [25](number1) by [5](number2)
+    - what is the result of [9](number1) divided by [3](number2)
+    - What is the result of dividing [24](number1) pencils into [6](number2) equal groups?
+    - How many times does [7](number1) go into [49](number2)?
+    - If you have [12](number1) slices of pizza and [4](number2) friends, how many slices of pizza can each person have?
+- intent: see_menu
+  examples: |
+    - Show me the menu
+    - what can you do?
+    - what are you programmed for?

@@ -1,0 +1,34 @@
+version: "3.1"
+
+stories:
+
+- story: default path
+  steps :
+    - intent: greet
+    - action : utter_iamabot
+    - action : utter_greet
+
+- story: subract path 1
+  steps:
+  - intent: subtract
+  - action: action_subtract
+  
+- story: addition path 1
+  steps:
+  - intent: add
+  - action: action_add
+
+- story: multiply path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: multiply
+  - action: action_multiply
+
+- story: division path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: divide
+  - action: action_divide
+
